@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="header">Rock Paper Scissors</div>
+    <div class="content">
+        <div class="alert"></div>
+        <div class="result-panel">
+            <div id="player">
+                <div class="score">Player:<p id="player-score">0</p></div>
+                <div class="choice" id="player-choice"></div>
+            </div>
+            <div id="computer">
+                <div class="score">Comp:<p id="comp-score">0</p></div>
+                <div class="choice" id="comp-choice"></div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="btn" id="rock-btn">Rock</button>
+            <button class="btn" id="paper-btn">Paper</button>
+            <button class="btn" id="scissors-btn">Scissors</button>
+            <button class="retry-btn hide">Play again</button>
+        </div>
+        <div class="choose-mode">
+            <label class="container">Best of 5
+                <input type="checkbox" checked="checked" id="bo5Checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">Best of 3
+                <input type="checkbox" id="bo3Checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+    </div>
+    <div class="footer"><a href="https://github.com/nguyenhuuvan1028/Rock-Paper-Scissors.git" target="_blank">Copyright © 2022 ta457 <img src="img/github.png" alt="github"></a></div>
+</body>
+</html>
